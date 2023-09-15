@@ -108,3 +108,60 @@ INSERT INTO DEPT (DEPTNO, DNAME, LOC) VALUES (40, 'OPERATIONS', 'BOSTON');
 
 
 ### OUTPUT:
+
+## Create a Customer1 Table
+```sql
+CREATE TABLE Customer1 (customer_id INT,cust_name VARCHAR(50),city VARCHAR(50),grade INT,salesman_id INT);
+```
+## Inserting Values to the Table
+```sql
+INSERT INTO Customer1 (customer_id, cust_name, city, grade, salesman_id) VALUES(3002, 'Nick Rimando', 'New York', 100, 5001);
+INSERT INTO Customer1 (customer_id, cust_name, city, grade, salesman_id) VALUES(3007, 'Brad Davis', 'New York', 200, 5001);
+INSERT INTO Customer1 (customer_id, cust_name, city, grade, salesman_id) VALUES(3005, 'Graham Zusi', 'California', 200, 5002);
+INSERT INTO Customer1 (customer_id, cust_name, city, grade, salesman_id) VALUES(3008, 'Julian Green', 'London', 300, 5002);
+INSERT INTO Customer1 (customer_id, cust_name, city, grade, salesman_id) VALUES(3004, 'Fabian Johnson', 'Paris', 300, 5006);
+INSERT INTO Customer1 (customer_id, cust_name, city, grade, salesman_id) VALUES(3009, 'Geoff Cameron', 'Berlin', 100, 5003);
+INSERT INTO Customer1 (customer_id, cust_name, city, grade, salesman_id) VALUES(3003, 'Jozy Altidor', 'Moscow', 200, 5007);
+INSERT INTO Customer1 (customer_id, cust_name, city, grade, salesman_id) VALUES(3001, 'Brad Guzan', 'London', NULL, 5005);
+```
+## Create a Salesperson1 table
+```sql
+CREATE TABLE Salesman1 (salesman_id INT,name VARCHAR(50),city VARCHAR(50),commission DECIMAL(4,2));
+```
+## Inserting Values to the Table
+```sql
+INSERT INTO Salesman1 (salesman_id, name, city, commission) VALUES(5001, 'James Hoog', 'New York', 0.15);
+INSERT INTO Salesman1 (salesman_id, name, city, commission) VALUES(5002, 'Nail Knite', 'Paris', 0.13);
+INSERT INTO Salesman1 (salesman_id, name, city, commission) VALUES(5005, 'Pit Alex', 'London', 0.11);
+INSERT INTO Salesman1 (salesman_id, name, city, commission) VALUES(5006, 'Mc Lyon', 'Paris', 0.14);
+INSERT INTO Salesman1 (salesman_id, name, city, commission) VALUES(5007, 'Paul Adam', 'Rome', 0.13);
+INSERT INTO Salesman1 (salesman_id, name, city, commission) VALUES(5003, 'Lauson Hen', 'San Jose', 0.12);
+```
+### Q7) write a SQL query to find the salesperson and customer who reside in the same city. Return Salesman, cust_name and city.
+
+### QUERY:
+
+
+### OUTPUT:
+
+### Q8) Write a SQL query to find salespeople who received commissions of more than 10 percent from the company. Return Customer Name, customer city, Salesman, commission.
+
+
+### QUERY:
+
+
+### OUTPUT:
+
+### Q9) Perform Natural join on both tables
+
+### QUERY:
+
+
+### OUTPUT:
+
+### Q10) Perform Left and right join on both tables
+
+### QUERY:
+
+
+### OUTPUT:
