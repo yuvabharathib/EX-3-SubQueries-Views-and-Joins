@@ -137,7 +137,7 @@ INSERT INTO Salesman1 (salesman_id, name, city, commission) VALUES(5006, 'Mc Lyo
 INSERT INTO Salesman1 (salesman_id, name, city, commission) VALUES(5007, 'Paul Adam', 'Rome', 0.13);
 INSERT INTO Salesman1 (salesman_id, name, city, commission) VALUES(5003, 'Lauson Hen', 'San Jose', 0.12);
 ```
-### Q7) write a SQL query to find the salesperson and customer who reside in the same city. Return Salesman, cust_name and city.
+### Q7) Write a SQL query to find the salesperson and customer who reside in the same city. Return Salesman, cust_name and city.
 
 ### QUERY:
 
