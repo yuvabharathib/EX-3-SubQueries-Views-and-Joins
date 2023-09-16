@@ -1,4 +1,4 @@
-# EX 3 SubQueries-Views-and-Joins 
+# EX 3 SubQueries, Views and Joins 
 
 
 ## Create employee Table
@@ -111,7 +111,7 @@ INSERT INTO DEPT (DEPTNO, DNAME, LOC) VALUES (40, 'OPERATIONS', 'BOSTON');
 
 ## Create a Customer1 Table
 ```sql
-CREATE TABLE Customer1 (customer_id INT,cust_name VARCHAR(50),city VARCHAR(50),grade INT,salesman_id INT);
+CREATE TABLE Customer1 (customer_id INT,cust_name VARCHAR(20),city VARCHAR(20),grade INT,salesman_id INT);
 ```
 ## Inserting Values to the Table
 ```sql
@@ -126,7 +126,7 @@ INSERT INTO Customer1 (customer_id, cust_name, city, grade, salesman_id) VALUES(
 ```
 ## Create a Salesperson1 table
 ```sql
-CREATE TABLE Salesman1 (salesman_id INT,name VARCHAR(50),city VARCHAR(50),commission DECIMAL(4,2));
+CREATE TABLE Salesman1 (salesman_id INT,name VARCHAR(20),city VARCHAR(20),commission DECIMAL(4,2));
 ```
 ## Inserting Values to the Table
 ```sql
@@ -144,7 +144,7 @@ INSERT INTO Salesman1 (salesman_id, name, city, commission) VALUES(5003, 'Lauson
 
 ### OUTPUT:
 
-### Q8) Write a SQL query to find salespeople who received commissions of more than 10 percent from the company. Return Customer Name, customer city, Salesman, commission.
+### Q8) Write a SQL query to find salespeople who received commissions of more than 13 percent from the company. Return Customer Name, customer city, Salesman, commission.
 
 
 ### QUERY:
