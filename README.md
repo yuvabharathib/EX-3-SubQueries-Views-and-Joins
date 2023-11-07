@@ -1,4 +1,9 @@
 # EX-3-SubQueries-Views-and-Joins
+# DATE: 18/8/23
+
+# Aim:
+To execute SubQueries, Views and Joins using SQL.
+# Program:
 ## Create employee Table
 ```sql
 CREATE TABLE EMP (EMPNO NUMBER(4) PRIMARY KEY,ENAME VARCHAR2(10),JOB VARCHAR2(9),MGR NUMBER(4),HIREDATE DATE,SAL NUMBER(7,2),COMM NUMBER(7,2),DEPTNO NUMBER(2));
